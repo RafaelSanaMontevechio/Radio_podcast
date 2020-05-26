@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" type="text/css" href="./css/CSSReset.css" />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Chelsea+Market&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="./css/style.css" />
+
+    <title>Radio Podcast</title>
+  </head>
+  <body>
+    <div class="main">
+      <div class="title">
+        <h1>RÁDIO PODCAST</h1>
+      </div>
+
+      <div class="container">
+        <div>
+          <span id="frequency" class="label">87.5</span>
+        </div>
+        <div>
+          <input
+            class="slider"
+            id="inputRange"
+            type="range"
+            min="87.5"
+            max="108"
+            step="0.1"
+            value="87.5"
+          />
+        </div>
+      </div>
+
+      <div class="podcasts" id="podcasts">
+        Podcast
+      </div>
+    </div>
+
+    <script src="./js/podcasts.js"></script>
+    <script src="./js/script.js"></script>
+  </body>
+</html>
